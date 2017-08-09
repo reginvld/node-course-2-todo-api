@@ -138,3 +138,16 @@ describe('DELETE /todos/:id', () => {
       .end(done);
   });
 });
+
+describe('PATCH /todos/:id', () => {
+  it('should update a todo', (done) =>{
+
+  });
+
+  it('should return a 404 if update is not found', (done) => {
+
+  });
+  it('should return a 404 if object is invalid', (done) => {
+
+  });
+})
